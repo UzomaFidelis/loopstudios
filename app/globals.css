@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Alata;
+    src: url(/fonts/Alata-Regular.ttf);
+    weight: 400;
+  }
+  @font-face {
+    font-family: "Josefin Sans";
+    src: url(/fonts/JosefinSans-Light.ttf);
+    weight: 300;
+  }
+  body {
+    font-size: 15px;
+  }
+}
