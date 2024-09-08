@@ -50,6 +50,7 @@ export const data: CreationData[] = [
   },
   {
     name: "make it fisheye",
+    alt: "fisheye",
     mobileImage: "/images/mobile/image-fisheye.jpg",
     desktopImage: "/images/desktop/image-fisheye.jpg",
   },
