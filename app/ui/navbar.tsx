@@ -14,7 +14,7 @@ const Navbar = ({
   toggleMenu: React.Dispatch<React.SetStateAction<boolean>>;
   hamburgerColor: string;
 }) => {
-  //Disable scrolling whem menu is open of mobile
+  //Disable scrolling whem menu is open on mobile
   useEffect(() => {
     if (isOpen) {
       document.body.style.overflow = "hidden";

@@ -82,7 +82,7 @@ const Header = () => {
       <div className="z-50">
         <Link href="/" aria-label="loop studios">
           <Logo
-            className={clsx("w-[9rem]", "w-[12.1rem]")}
+            className={clsx("w-[9rem]", "md:w-[12.1rem]")}
             fill={menuOpen ? "white" : hamburgerColor}
           />
         </Link>
